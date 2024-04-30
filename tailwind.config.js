@@ -11,7 +11,7 @@ export default {
         sans:['Roboto', 'sans-serif']
     },
     colors:{
-      brightBlu: '#3EBEFF',
+      brightBlue: '#3EBEFF',
     }, 
     screens:{
       sm: '480px',
