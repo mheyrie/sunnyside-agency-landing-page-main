@@ -1,16 +1,18 @@
-import {Route, createBrowserRouter, createRoutesFromElements, RouterProvider, BrowserRouter} from 'react-router-dom'
-import { useState } from 'react'
-import Navbar from "./components/Navbar"
+import { Route, Routes, BrowserRouter } from 'react-router-dom';
+import Navbar from "./components/Navbar";
+import HeroSection from "./components/HeroSection";
 
 function App() {
-  
-
   return (
-    <BrowserRouter>
+    <>
     
-      <Navbar/>
+    <BrowserRouter>
+      <Navbar />
     </BrowserRouter>
-  )
+    <HeroSection />
+    </>
+    
+  );
 }
 
-export default App
+export default App;

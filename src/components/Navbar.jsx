@@ -18,13 +18,13 @@ const Navbar = () => {
                         </NavLink>
                         <div className="hidden md:flex md:ml-auto">
                           <div className="flex space-x-2">
-                            <NavLink to='/about' className={linkClass}>
+                            <NavLink to='/a' className={linkClass}>
                               About
                             </NavLink>
-                            <NavLink to='/services' className={linkClass}>
+                            <NavLink to='/s' className={linkClass}>
                               Services
                             </NavLink>
-                            <NavLink to='/projects' className={linkClass}>
+                            <NavLink to='/ab##' className={linkClass}>
                               Projects
                             </NavLink>
                             <NavLink to='/#' className={linkClass}>
