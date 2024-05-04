@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage:{
+        heroSection: "url('assets/images/desktop/image-header.jpg')",
+      },
       fontFamily: {
         barlow: ['Barlow', 'Fraunces', 'Roboto'],
         sans:['Roboto', 'sans-serif']
