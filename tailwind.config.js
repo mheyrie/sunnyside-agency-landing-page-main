@@ -14,10 +14,22 @@ export default {
         sans:['Roboto', 'sans-serif']
     },
     colors:{
-      brightBlue: '#3EBEFF',
+      primary: {
+        brightBlue: '#3EBEFF',
+        softRed: 'hsl(7, 99%, 70%)',
+        yellow: 'hsl(51, 100%, 49%)',
+        graphicDesignText: 'hsl(167, 40%, 24%)',
+        photographicText: 'hsl(198, 62%, 26%)',
+        footer: 'hsl(168, 34%, 41%)'
+      },
+
+      neutral:{
+        
+      }
+      
     }, 
     screens:{
-      sm: '480px',
+      sm: '375px',
       md: '850px',
       lg: '1440px'
     }
