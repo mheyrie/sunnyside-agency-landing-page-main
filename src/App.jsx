@@ -1,6 +1,7 @@
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
+import FirstSection from "./components/FirstSection";
 
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
       <Navbar />
       
       <HeroSection/>
-      
+      <FirstSection/>
     </BrowserRouter>
     
   
