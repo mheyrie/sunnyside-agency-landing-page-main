@@ -10,9 +10,22 @@ export default {
         heroSection: "url('assets/images/desktop/image-header.jpg')",
       },
       fontFamily: {
-        barlow: ['Barlow', 'Fraunces', 'Roboto'],
-        sans:['Roboto', 'sans-serif']
-    },
+        barlow: ['Barlow'],
+        fraunces: ['Fraunces'],
+        roboto: ['Roboto'],
+        sans:['sans-serif']
+      },
+
+      fontWeight: {
+        normal: '400',
+        medium: '500',
+        semibold: '600',
+        bold: '700',
+        extrabold: '800',
+        'extra-bold': '800',
+        black: '900',
+      },
+
     colors:{
       primary: {
         brightBlue: '#3EBEFF',
@@ -23,8 +36,12 @@ export default {
         footer: 'hsl(168, 34%, 41%)'
       },
 
-      neutral:{
-        
+      neutral: {
+        veryDarkDesaturatedBlue: 'hsl(212, 27%, 19%)',
+        veryDarkGrayishBlue: 'hsl(213, 9%, 39%)',
+        darkGrayishBlue: 'hsl(232, 10%, 55%)',
+        grayishBlue: 'hsl(210, 4%, 67%)',
+        white: 'hsl(0, 0%, 100%)'
       }
       
     }, 

@@ -3,7 +3,6 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import FirstSection from "./components/FirstSection";
 
-
 function App() {
   return (
   
@@ -13,6 +12,7 @@ function App() {
       
       <HeroSection/>
       <FirstSection/>
+      
     </BrowserRouter>
     
   

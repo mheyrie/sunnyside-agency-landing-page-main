@@ -4,7 +4,7 @@ import arrow from '../assets/images/icon-arrow-down.svg'
 const HeroSection = () => {
     
   return (
-    <>
+    
       <div className="flex flex-col justify-center items-center h-[40rem] bg-heroSection bg-cover bg-center bg-no-repeat mt-[-8px]">
         
           <div className="">
@@ -15,14 +15,7 @@ const HeroSection = () => {
           </div>
           
         </div>
-        
-      
-    
-    </>
-    
-    
-
-     
+         
   )
 }
 
