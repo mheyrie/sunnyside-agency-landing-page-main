@@ -8,6 +8,8 @@ export default {
     extend: {
       backgroundImage:{
         heroSection: "url('assets/images/desktop/image-header.jpg')",
+        firstSection1: "url('assets/images/desktop/image-graphic-design.jpg')",
+        firstSection2: "url('assets/images/desktop/image-photography.jpg')"
       },
       fontFamily: {
         barlow: ['Barlow'],
